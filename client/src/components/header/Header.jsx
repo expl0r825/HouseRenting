@@ -1,18 +1,8 @@
+
+
 export default function Header() {
     return (
         <>
-            <h1>Бачка 😉</h1>
-
-
-
-
-
-
-            {/* "2d5ae478-87c7-45fa-acf9-f04aa4724421": {
-        "person": "Maya",
-        "phone": "+1-555-7653",
-        "_id": "2d5ae478-87c7-45fa-acf9-f04aa4724421" */}
-                        
         </>
     )
 }

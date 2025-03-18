@@ -1,5 +1,8 @@
 const request = async (method, url, data) => {
-    let options = {};
+    let options = {
+        method,
+        headers: {}
+    };
 
     if (method !== 'GET') {
         options = {
@@ -18,7 +21,7 @@ const request = async (method, url, data) => {
     }
 
     const response = await fetch(url, options);
-    const result = await response.json();
+    const result =  response.json();
 
     return result;
 };
