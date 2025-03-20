@@ -2,8 +2,11 @@ import { useEffect, useState } from "react";
 
 import HouseItem from "./HouseItem";
 import houseService from "../../services/houseService";
+import React from 'react';
+import { Pagination } from 'antd';
 
 import './allHouses.css';
+
 
 export default function AllHouses() {
     const [houses, SetHouses] = useState([]);
@@ -24,6 +27,13 @@ export default function AllHouses() {
                 </div>)
                 : <h3 className="no-articles">No articles yet</h3>
             }
+
+
+
+
+
+            <Pagination  className="paginator" align="center" defaultCurrent={1} total={50} />
+
         </section>
     );
 }

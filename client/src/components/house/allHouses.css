@@ -12,7 +12,39 @@
 
 .house-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); /* Винаги 3 на ред */
+    gap: 30px; /* По-голямо разстояние между тях */
+    justify-content: space-around; /* Равномерно разпределение */
+}
+
+.house-card {
+    width: 100%;  /* Запълва колоната */
+    max-width: 350px; /* Контролира максималната ширина */
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.house-card:hover {
+    transform: scale(1.05); /* Малък zoom ефект */
+}
+
+
+.paginator {
+    font-size: 22px; /* Increase font size */
+    padding-top: 2em;
+}
+
+.paginator .ant-pagination-item {
+    min-width: 50px; /* Increase button width */
+    height: 50px; /* Increase button height */
+    line-height: 50px; /* Center text */
+    font-size: 18px;
+}
+
+.paginator .ant-pagination-prev,
+.paginator .ant-pagination-next {
+    font-size: 22px; /* Increase arrow size */
 }

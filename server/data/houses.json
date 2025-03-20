@@ -6,7 +6,7 @@
         "price": "200 000",
         "_id": "2d5ae478-87c7-45fa-acf9-f04aa4724421"
     },
-   "f94b3c12-2d49-4f07-bf8f-1e9f6b3d3e74": {
+    "f94b3c12-2d49-4f07-bf8f-1e9f6b3d3e74": {
         "name": "Mountain Retreat",
         "address": "Bansko, Bulgaria",
         "imageUrl": "https://assets-news.housing.com/news/wp-content/uploads/2022/01/10145854/most-beautiful-houses2.png",
@@ -40,5 +40,26 @@
         "imageUrl": "https://cdn4.premiumread.com/?url=https://gulftoday.ae/uploads/imported_images/media/gulf-today/images/articles/news/2023/5/30/penthouse1-sold-for-dhs220m-750x450.ashx?v1&w=600&q=100&f=webp&t=0.0.2",
         "price": "450,000",
         "_id": "9f5b9fd6-76d2-4b3c-b617-f3de9e69d4a9"
+    },
+    "1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6": {
+        "name": "Seaside Cottage",
+        "address": "Burgas, Bulgaria",
+        "imageUrl": "https://seasidecottages.com/wp-content/uploads/2021/11/pauls-cottage-from-the-bay-1.jpg",
+        "price": "220,000",
+        "_id": "1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6"
+    },
+    "7q8r9s0t-1u2v-3w4x-5y6z-7a8b9c0d1e2f": {
+        "name": "Mountain Lodge",
+        "address": "Gabrovo, Bulgaria",
+        "imageUrl": "https://cdn.photos.sparkplatform.com/tel/20230121145837475619000000-o.jpg",
+        "price": "130,000",
+        "_id": "7q8r9s0t-1u2v-3w4x-5y6z-7a8b9c0d1e2f"
+    },
+    "3g4h5i6j-7k8l-9m0n-1o2p-3q4r5s6t7u8v": {
+        "name": "City Loft",
+        "address": "Varna, Bulgaria",
+        "imageUrl": "https://static.srx.com.sg/Project%20Photos/8322/1/L/45252.jpg",
+        "price": "275,000",
+        "_id": "3g4h5i6j-7k8l-9m0n-1o2p-3q4r5s6t7u8v"
     }
 }

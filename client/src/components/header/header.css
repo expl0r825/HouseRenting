@@ -1,0 +1,27 @@
+.ant-menu-item {
+    font-size: 18px !important;  /* Increase text size */
+    padding: 15px 20px !important;  /* Increase padding */
+    height: auto !important;  /* Ensure height adjusts */
+}
+
+.ant-menu-item-icon {
+    font-size: 22px !important;  /* Increase icon size */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff;
+    padding: 0 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-left {
+    flex-grow: 1; /* Take up available space */
+}
+
+.menu-right {
+    margin-left: auto; /* Push items to the right */
+}
