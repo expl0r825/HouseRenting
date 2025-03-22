@@ -1,6 +1,8 @@
 import { Link } from 'react-router'
 import { Routes, Route } from 'react-router'
 
+import UserProvider from './providers/UserProvider'
+
 import Header from './components/header/Header'
 import AllHouses from './components/house/AllHouses'
 import Register from './components/auth/Register'
@@ -13,7 +15,7 @@ import './App.css'
 function App() {
 
     return (
-        <>
+        <UserProvider>
             <Header />
 
             <Routes>
@@ -24,7 +26,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
             </Routes>
-        </>
+        </UserProvider>
     )
 }
 
