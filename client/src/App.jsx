@@ -1,12 +1,13 @@
 import { Link } from 'react-router'
-import Header from './components/header/Header'
 import { Routes, Route } from 'react-router'
-import './App.css'
+
+import Header from './components/header/Header'
 import AllHouses from './components/house/AllHouses'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import AddHouse from './components/house/addHouse'
 
+import './App.css'
 
 
 function App() {
