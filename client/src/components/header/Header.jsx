@@ -1,9 +1,10 @@
 import React from 'react';
 import { HomeOutlined, UnorderedListOutlined, PlusOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
-
+import useAuth from "../../hooks/useAuth";
 import './header.css'
 import { Link, Links } from 'react-router';
+
 
 const items = [
     {
@@ -37,6 +38,8 @@ const items = [
         label: <Link to='/register'>Register</Link>,
     },
 ];
+
+console.log(items);
 
 
 const onClick = (e) => {

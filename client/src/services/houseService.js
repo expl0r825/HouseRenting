@@ -1,14 +1,13 @@
 import request from "../utils/request";
 
-const baseUrl = 'http://localhost:3030/jsonstore/houses'; 
+const baseUrl = 'http://localhost:3030/data/houses'; 
 
 export default {
     async getAll() {
         
         const result = await request.get(baseUrl);
 
-        const houses = Object.values(result);
-        
+        const houses = Object.values(result);     
         
         return houses;
     },

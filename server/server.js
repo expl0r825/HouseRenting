@@ -1651,17 +1651,73 @@
                 _updatedOn: 1616237293676
             }
         },
-        houses: [
-            {
+        houses: {
 
+            "2d5ae478-87c7-45fa-acf9-f04aa4724421": {
+                "name": "Beach House",
+                "address": "Varna, Bulgaria",
+                "imageUrl": "https://pix10.agoda.net/hotelImages/446642/-1/4f8cb30e45d0d26840ef9fffdaa41b3a.jpg?ce=0&s=414x232&ar=16x9",
+                "price": "200 000",
+                "_id": "2d5ae478-87c7-45fa-acf9-f04aa4724421"
             },
-            {
+            "f94b3c12-2d49-4f07-bf8f-1e9f6b3d3e74": {
+                "name": "Mountain Retreat",
+                "address": "Bansko, Bulgaria",
+                "imageUrl": "https://assets-news.housing.com/news/wp-content/uploads/2022/01/10145854/most-beautiful-houses2.png",
+                "price": "150,000",
+                "_id": "f94b3c12-2d49-4f07-bf8f-1e9f6b3d3e74"
+            },
+            "8b29ff56-1c91-4c44-98b7-392f27a96dd4": {
+                "name": "Lakeside Villa",
+                "address": "Plovdiv, Bulgaria",
+                "imageUrl": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c",
+                "price": "320,000",
+                "_id": "8b29ff56-1c91-4c44-98b7-392f27a96dd4"
+            },
+            "c7d13a68-5e2e-48d1-a67b-c9f82c1c7325": {
+                "name": "Sunny Apartment",
+                "address": "Sofia, Bulgaria",
+                "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/366636493.jpg?k=262881279be41ce97413f930ce307891e4029bd2aca1effad56818b6b8136494&o=&hp=1",
+                "price": "180,000",
+                "_id": "c7d13a68-5e2e-48d1-a67b-c9f82c1c7325"
+            },
+            "e2a74993-40db-45eb-9214-5e5d56c4f7b2": {
+                "name": "Cozy Cabin",
+                "address": "Troyan, Bulgaria",
+                "imageUrl": "https://images.unsplash.com/photo-1522156373667-4c7234bbd804",
+                "price": "120,000",
+                "_id": "e2a74993-40db-45eb-9214-5e5d56c4f7b2"
+            },
+            "9f5b9fd6-76d2-4b3c-b617-f3de9e69d4a9": {
+                "name": "Luxury Penthouse",
+                "address": "Burgas, Bulgaria",
+                "imageUrl": "https://cdn4.premiumread.com/?url=https://gulftoday.ae/uploads/imported_images/media/gulf-today/images/articles/news/2023/5/30/penthouse1-sold-for-dhs220m-750x450.ashx?v1&w=600&q=100&f=webp&t=0.0.2",
+                "price": "450,000",
+                "_id": "9f5b9fd6-76d2-4b3c-b617-f3de9e69d4a9"
+            },
+            "1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6": {
+                "name": "Seaside Cottage",
+                "address": "Burgas, Bulgaria",
+                "imageUrl": "https://seasidecottages.com/wp-content/uploads/2021/11/pauls-cottage-from-the-bay-1.jpg",
+                "price": "220,000",
+                "_id": "1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6"
+            },
+            "7q8r9s0t-1u2v-3w4x-5y6z-7a8b9c0d1e2f": {
+                "name": "Mountain Lodge",
+                "address": "Gabrovo, Bulgaria",
+                "imageUrl": "https://cdn.photos.sparkplatform.com/tel/20230121145837475619000000-o.jpg",
+                "price": "130,000",
+                "_id": "7q8r9s0t-1u2v-3w4x-5y6z-7a8b9c0d1e2f"
+            },
+            "3g4h5i6j-7k8l-9m0n-1o2p-3q4r5s6t7u8v": {
+                "name": "City Loft",
+                "address": "Varna, Bulgaria",
+                "imageUrl": "https://static.srx.com.sg/Project%20Photos/8322/1/L/45252.jpg",
+                "price": "275,000",
+                "_id": "3g4h5i6j-7k8l-9m0n-1o2p-3q4r5s6t7u8v"
+            }
 
-            },
-            {
-
-            },
-        ]
+        }
     };
     var rules$1 = {
         users: {

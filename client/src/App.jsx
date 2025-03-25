@@ -8,6 +8,7 @@ import AllHouses from './components/house/AllHouses'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import AddHouse from './components/house/addHouse'
+import Logout from './components/auth/Logout'
 
 import './App.css'
 
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/houses/:houseId/edit" element={<GameEdit />} /> */}
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/logout" element={<Logout />} />
             </Routes>
         </UserProvider>
     )
