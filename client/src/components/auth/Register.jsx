@@ -1,14 +1,13 @@
 import React from "react";
-import { Form, Input, Button, Card } from "antd";
 
 import { useRegister } from "../../api/authApi";
 import { useUserContext } from "../../contexts/UserContext";
 import { useNavigate } from "react-router";
 
-import './auth.css'
+import './register.css'
 
 export default function Register() {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
     const { register } = useRegister();
     const { userLoginHandler } = useUserContext();
 
@@ -30,41 +29,23 @@ export default function Register() {
         navigate('/');
     }
 
-  return (
-    <div className="auth-container">
-      <Card title="Register" className="auth-card">
-        <Form name="register" onFinish={registerHandler} layout="vertical">
-          <Form.Item
-            label="Email"
-            name="email"
-            rules={[{ required: true, message: "Please enter your email!" }]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item
-            label="Password"
-            name="password"
-            rules={[{ required: true, message: "Please enter your password!" }]}
-          >
-            <Input.Password />
-          </Form.Item>
-
-          <Form.Item
-            label="Confirm Password"
-            name="confirm-password"
-            rules={[{ required: true, message: "Please confirm your password!" }]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item>
-            <Button type="primary" htmlType="submit" block>
-              Register
-            </Button>
-          </Form.Item>
-        </Form>
-      </Card>
-    </div>
-  );
+    return (
+        <div className="register-container">
+            <form id="register" action={registerHandler}>
+                <div className="form-group">
+                    <label htmlFor="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="password">Password</label>
+                    <input type="password" id="password" name="password" required />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="confirm-password"> Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required />
+                </div>
+                <button type="submit" value="Register">Register</button>
+            </form>
+        </div>
+    );
 };

@@ -29,9 +29,6 @@ export default function AllHouses() {
             }
 
 
-
-
-
             <Pagination  className="paginator" align="center" defaultCurrent={1} total={50} />
 
         </section>

@@ -18,7 +18,6 @@ export default function Login() {
 
 
         userLoginHandler(authData);
-        console.log("login works");
 
         navigate(-1);
     };

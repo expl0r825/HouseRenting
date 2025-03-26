@@ -1,13 +1,14 @@
-/* Center the login form */
-.login-container {
+/* Center both login and register forms */
+.login-container,
+.register-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full screen height */
-    background: #f4f4f4; /* Light gray background */
+    height: 100vh;
+    background: #f4f4f4;
 }
 
-/* Styling the form */
+/* Style the form (applies to both login and register) */
 form {
     background: #fff;
     padding: 30px;
@@ -17,13 +18,13 @@ form {
     text-align: center;
 }
 
-/* Form groups (labels & inputs) */
+/* Form group styling */
 .form-group {
     margin-bottom: 15px;
     text-align: left;
 }
 
-/* Styling labels */
+/* Label styling */
 label {
     display: block;
     font-weight: bold;
@@ -31,7 +32,7 @@ label {
     color: #333;
 }
 
-/* Styling inputs */
+/* Input styling */
 input {
     width: 100%;
     padding: 10px;
@@ -47,7 +48,7 @@ input:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-/* Styling the login button */
+/* Button styling */
 button {
     width: 100%;
     padding: 10px;
